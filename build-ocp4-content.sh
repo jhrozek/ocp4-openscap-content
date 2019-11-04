@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git checkout -b ocp4 --track origin/ocp4
+git checkout -b $branch --track origin/$branch
 pushd build
 cmake ..
 popd
